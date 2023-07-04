@@ -1,1 +1,12 @@
-guides: []
+guides:
+  - aavenomics.yaml
+  - lending-and-borrowing-basics.yaml
+  - lending-in-aave.yaml
+  - borrowing-in-aave.yaml
+  - flash-loans.yaml
+  - intro-aave-v3.yaml
+  - aave-portals.yaml
+  - aave-risk-management.yaml
+  - aave-npm-packages.yaml
+  - aave-sandbox.yaml
+  - aave-grants-dao.yaml
