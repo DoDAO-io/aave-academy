@@ -1,39 +1,48 @@
-uuid: 05ab3220-a9f8-4dd2-9ada-5be492dc8413
-key: flash-loans
-name: Flash Loans
-content: Explains what are flash loans and how to use them in AAVE
-guideType: onboarding
-created: "2022-08-02T04:15:13.911Z"
 categories:
   - developer
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/guides/eth/aave/AACE_Flash_loans_Thumbnail.png
+content: Explains what are flash loans and how to use them in AAVE
+created: '2024-01-23T13:02:49.464Z'
+guideType: onboarding
+key: flash-loans
+name: Flash Loans
 publishStatus: Live
-showIncorrectOnCompletion: true
 steps:
-  - uuid: 19798277-744a-4aa1-8ede-51cfe6b9be26
-    name: What are flash loans?
-    content: |
-      Flash loans are special transactions that allow you to borrow an asset and return it within a single transaction. 
-      They're also known as block borrows. Flash loans don't require any collateral to function. That's because they're 
-      made up of the words "flash," which means fast or instant, and "loan," which can be understood by the traditional 
-      finance terminology.
-      
-      Flash loans are essentially like short-term loans that are codified by smart contracts. This means that the terms 
-      of the loan are written in code, which helps to prevent funds from being transferred out of one account to another 
-      unless certain conditions have been met. Flash loans are typically repaid in the same transaction, and they are 
-      only valid for as long as the liquidity remains in the pool. However, if a flash loan trade doesn't return the full 
-      amount of liquidity to the pool, the entire transaction will be reversed, which will also reverse all previous 
-      actions. This helps to ensure that funds are safe during a transaction.
-    stepItems: []
+  - content: >
+      Flash loans are special transactions that allow you to borrow an asset and
+      return it within a single transaction. 
 
-  - uuid: da663f34-ab93-4778-bd03-0b238908438d
+      They're also known as block borrows. Flash loans don't require any
+      collateral to function. That's because they're 
+
+      made up of the words "flash," which means fast or instant, and "loan,"
+      which can be understood by the traditional 
+
+      finance terminology.
+
+
+      Flash loans are essentially like short-term loans that are codified by
+      smart contracts. This means that the terms 
+
+      of the loan are written in code, which helps to prevent funds from being
+      transferred out of one account to another 
+
+      unless certain conditions have been met. Flash loans are typically repaid
+      in the same transaction, and they are 
+
+      only valid for as long as the liquidity remains in the pool. However, if a
+      flash loan trade doesn't return the full 
+
+      amount of liquidity to the pool, the entire transaction will be reversed,
+      which will also reverse all previous 
+
+      actions. This helps to ensure that funds are safe during a transaction.
+    name: What are flash loans?
+    stepItems: []
+    uuid: 19798277-744a-4aa1-8ede-51cfe6b9be26
+  - content: ''
     name: Evaluation
-    content: |
     stepItems:
-      - uuid: 6a08e0f7-a646-460c-be2e-3e4c47e4fc43
-        type: SingleChoice
-        content: What do Flash loans mean?
-        answerKeys:
+      - answerKeys:
           - D
         choices:
           - content: Slow loan processing without collateral.
@@ -44,46 +53,63 @@ steps:
             key: C
           - content: Instant loan processing without collateral.
             key: D
-      - uuid: 34614be2-be98-485b-9389-def42c48ef7e
+        content: What do Flash loans mean?
         type: SingleChoice
-        content: A flash loan can extend to how many transactions?
-        answerKeys:
+        uuid: 6a08e0f7-a646-460c-be2e-3e4c47e4fc43
+        explanation: null
+      - answerKeys:
           - A
         choices:
-          - content: "1"
+          - content: '1'
             key: A
-          - content: "2"
+          - content: '2'
             key: B
-          - content: "5"
+          - content: '5'
             key: C
-          - content: "10"
+          - content: '10'
             key: D
+        content: A flash loan can extend to how many transactions?
+        type: SingleChoice
+        uuid: 34614be2-be98-485b-9389-def42c48ef7e
+        explanation: null
+    uuid: da663f34-ab93-4778-bd03-0b238908438d
+  - content: >
+      A transaction is a way of transferring value or any other type of token
+      using Ethereum. In order to transfer 
 
-  - uuid: 7e3ff517-674f-4897-8d4a-6e77a685177a
-    name: What is a Transaction in Ethereum
-    content: |
-      A transaction is a way of transferring value or any other type of token using Ethereum. In order to transfer 
-      cryptocurrency, you must have a digital wallet. This wallet must have a public and private key. You can think of 
-      it like this: your wallet is your bank account, your public key is your account number, and your private key is 
+      cryptocurrency, you must have a digital wallet. This wallet must have a
+      public and private key. You can think of 
+
+      it like this: your wallet is your bank account, your public key is your
+      account number, and your private key is 
+
       your pin code.
-  
-      Once you have connected your wallet, you can use various decentralized exchanges and decentralized finance 
-      platforms to complete transactions. On every transaction, a fee is added, which acts as an incentive to miners 
+
+
+      Once you have connected your wallet, you can use various decentralized
+      exchanges and decentralized finance 
+
+      platforms to complete transactions. On every transaction, a fee is added,
+      which acts as an incentive to miners 
+
       to keep the chain secure. 
 
-      Users can perform various tasks like lending, borrowing, transferring and converting currencies using blockchain.
-  
-      But have you ever imagined? Taking a loan without any colleteral, utilizing it and then returning it back in the 
+
+      Users can perform various tasks like lending, borrowing, transferring and
+      converting currencies using blockchain.
+
+
+      But have you ever imagined? Taking a loan without any collateral,
+      utilizing it and then returning it back in the 
+
       same transaction? That's what Flash Loans are.
+    name: Transaction in Ethereum
     stepItems: []
-  - uuid: e56fa5f0-87c4-4fc3-9010-d81705e40a4a
+    uuid: 7e3ff517-674f-4897-8d4a-6e77a685177a
+  - content: ''
     name: Evaluation
-    content: |
     stepItems:
-      - uuid: f2ae75d8-20c6-4470-9b9d-450af954a124
-        type: SingleChoice
-        content: What is the collateral amount needed to get a flash loan?
-        answerKeys:
+      - answerKeys:
           - A
         choices:
           - content: No collateral
@@ -94,19 +120,24 @@ steps:
             key: C
           - content: 25%
             key: D
-  - uuid: 85f66561-9874-4d67-9b1c-ce1745277f8a
-    name: Working of Flash Loan
-    content: |
+        content: What is the collateral amount needed to get a flash loan?
+        type: SingleChoice
+        uuid: f2ae75d8-20c6-4470-9b9d-450af954a124
+        explanation: null
+    uuid: e56fa5f0-87c4-4fc3-9010-d81705e40a4a
+  - content: >
       Aave V3 offers two options for flash loans:
-  
+
         * `flashLoan`: Allows borrower to access liquidity of _**multiple reserves**_ in single _flashLoan_ transaction. The borrower also has an option to open stable or variabled rate debt position backed by supplied collateral or credit delegation in this case.\
         NOTE: _flash loan fee_ is waived for approved `flashBorrowers` (managed by ACLManager)
         
         * `flashLoanSimple`:  Allows borrower to access liquidity of _single reserve_ for the transaction. In this case flash loan fee is not waived nor can borrower open any debt position at the end of the transaction. This method is gas efficient for those trying take advantage of simple flash loan with single reserve asset.
-      
+
       ### Execution Flow
-      
-      For developers, a helpful mental model to consider when developing your solution:
+
+
+      For developers, a helpful mental model to consider when developing your
+      solution:
         
         1. Your contract calls the `Pool` contract, requesting a Flash Loan of a certain `amount(s)` of `reserve(s)` using `flashLoanSimple()` or `flashLoan()`.
         2. After some sanity checks, the `Pool` transfers the requested `amounts` of the `reserves` to your contract, then calls `executeOperation()` on `receiver` contract .
@@ -115,44 +146,47 @@ steps:
         * If you are performing **flashLoan,** then for all the reserves either depending on  `interestRateMode` passed for the asset, either the Pool must be approved for flash loaned amount + fee or must or sufficient collateral or credit delegation should be available to open debt position.
         * If the amount owing is not available (due to a lack of balance or approvaln or insufficient collateral for debt), then the transaction is reverted.
         4. All of the above happens in 1 transaction (hence in a single ethereum block).
+    name: Working of Flash Loan
     stepItems: []
-  - uuid: 5dd4bc36-1ffc-4df6-8a0a-baf9e566091c
+    uuid: 85f66561-9874-4d67-9b1c-ce1745277f8a
+  - content: ''
     name: Evaluation
-    content: |
     stepItems:
-      - uuid: ad2c7c7c-5afc-4d20-9151-0cbf2ac06f65
-        type: MultipleChoice
-        content: What are the two differents methods which can be called to get Flash Loans?
-        answerKeys:
+      - answerKeys:
           - A
           - C
         choices:
-          - content: "`flashLoanSimple`"
+          - content: '`flashLoanSimple`'
             key: A
-          - content: "`doFlashLoan`"
+          - content: '`doFlashLoan`'
             key: B
-          - content: "`flashLoan`"
+          - content: '`flashLoan`'
             key: C
-          - content: "`instantLoan`"
+          - content: '`instantLoan`'
             key: D
-      - uuid: 2826d351-7de1-4560-9481-a60edfd61474
-        type: SingleChoice
-        content: Which method is called on the receiver contract for Flash Loan?
-        answerKeys:
+        content: >-
+          What are the two differents methods which can be called to get Flash
+          Loans?
+        type: MultipleChoice
+        uuid: ad2c7c7c-5afc-4d20-9151-0cbf2ac06f65
+        explanation: null
+      - answerKeys:
           - D
         choices:
-          - content: "`useFlashLoan`"
+          - content: '`useFlashLoan`'
             key: A
-          - content: "`executeLoan`"
+          - content: '`executeLoan`'
             key: B
-          - content: "`executeFlashLoan`"
+          - content: '`executeFlashLoan`'
             key: C
-          - content: "`executeOperation`"
+          - content: '`executeOperation`'
             key: D
-
-  - uuid: 6a9b80fa-bb8a-4913-9d6c-4b758caee3c0
-    name: Code using Flash Loan
-    content: |
+        content: Which method is called on the receiver contract for Flash Loan?
+        type: SingleChoice
+        uuid: 2826d351-7de1-4560-9481-a60edfd61474
+        explanation: null
+    uuid: 5dd4bc36-1ffc-4df6-8a0a-baf9e566091c
+  - content: >
       ```solidity
         /**
         !!!
@@ -207,47 +241,78 @@ steps:
             POOL.flashLoanSimple(receiverAddress, asset, amount, params, referralCode);
           }
       }
+
       ```
-      This code can be found at [https://github.com/defispartan/hackmoney-demo](https://github.com/defispartan/hackmoney-demo)
+
+      This code can be found at
+      [https://github.com/defispartan/hackmoney-demo](https://github.com/defispartan/hackmoney-demo)
+    name: Code using Flash Loan
     stepItems: []
-  - uuid: 031e3564-5caf-4ecf-90dd-d94af9082b80
-    name: Applications of Flash Loans
-    content: |
+    uuid: 6a9b80fa-bb8a-4913-9d6c-4b758caee3c0
+  - content: >
       #### Arbitrage 
-      Users can earn a decent profit by trading assets at different platforms that offer different values. For example, 
-      users can buy crypto from one exchange and sell it on another with varying rates and make a profit doing so.
-  
-      With flash loans, traders can launch an arbitrage without any existing assets. When a price difference is found, 
-      traders can instantly borrow a considerable amount of money using a flash loan service. Therefore, arbitrage trades 
-      using a flash loan become "cost-free" as long as the traders can afford the gas and flash loan fee to launch the 
+
+      Users can earn a decent profit by trading assets at different platforms
+      that offer different values. For example, 
+
+      users can buy crypto from one exchange and sell it on another with varying
+      rates and make a profit doing so.
+
+
+      With flash loans, traders can launch an arbitrage without any existing
+      assets. When a price difference is found, 
+
+      traders can instantly borrow a considerable amount of money using a flash
+      loan service. Therefore, arbitrage trades 
+
+      using a flash loan become "cost-free" as long as the traders can afford
+      the gas and flash loan fee to launch the 
+
       transaction.
-      
-      
+
+
+
       #### Swapping Collateral    
-      Crypto asset investors can use collateral swapping to change out their investments without having to repay the 
-      debt of the original investment. This can be important in a volatile market where timing is key to avoiding 
-      liquidation. Collateral swapping lets an investor replace their position with borrowed assets.
-      
-      Users can choose to pay back their CDP debt and take out all collateral, using part of it to repay flash loans 
+
+      Crypto asset investors can use collateral swapping to change out their
+      investments without having to repay the 
+
+      debt of the original investment. This can be important in a volatile
+      market where timing is key to avoiding 
+
+      liquidation. Collateral swapping lets an investor replace their position
+      with borrowed assets.
+
+
+      Users can choose to pay back their CDP debt and take out all collateral,
+      using part of it to repay flash loans 
+
       and keeping the remaining for themselves.
-      
+
+
       #### Self Liquidation
-      
-      Markets can be very volatile and can lead liquidation of the sensative positions. Liquidation can be quite expensive
-      on certail platforms, and it might make sense to write a simple script to self-liquidate your loans using flash 
+
+
+      Markets can be very volatile and can lead liquidation of the sensative
+      positions. Liquidation can be quite expensive
+
+      on certail platforms, and it might make sense to write a simple script to
+      self-liquidate your loans using flash 
+
       loans and your own deposit to pay them back.
-      
-      There are many applications that make use of flash loans and liquidate the positions on user's behalf saving the 
+
+
+      There are many applications that make use of flash loans and liquidate the
+      positions on user's behalf saving the 
+
       user hefty liquidation fees of the protocol.
+    name: Applications of Flash Loans
     stepItems: []
-  - uuid: 088abc7e-f960-4279-bbad-c5979aa3cef7
+    uuid: 031e3564-5caf-4ecf-90dd-d94af9082b80
+  - content: ''
     name: Evaluation
-    content: |
     stepItems:
-      - uuid: e4b49abe-7b29-4bdd-a2a1-e6f98a83e48d
-        type: SingleChoice
-        content: How does DeFi solve the volatility of cryptocurrency?
-        answerKeys:
+      - answerKeys:
           - B
         choices:
           - content: Using smart contracts
@@ -258,10 +323,11 @@ steps:
             key: C
           - content: None of these
             key: D
-      - uuid: 88e01391-7073-4ee5-8710-1b045443b8a7
+        content: How does DeFi solve the volatility of cryptocurrency?
         type: SingleChoice
-        content: Which one is not a use case of Flash Loan?
-        answerKeys:
+        uuid: e4b49abe-7b29-4bdd-a2a1-e6f98a83e48d
+        explanation: null
+      - answerKeys:
           - C
         choices:
           - content: Flash Minting
@@ -272,13 +338,23 @@ steps:
             key: C
           - content: Wash-trading
             key: D
-  - uuid: f3086f62-8f2d-45f1-9c29-e9cbf68e0afa
+        content: Which one is not a use case of Flash Loan?
+        type: SingleChoice
+        uuid: 88e01391-7073-4ee5-8710-1b045443b8a7
+        explanation: null
+    uuid: 088abc7e-f960-4279-bbad-c5979aa3cef7
+  - content: ''
     name: Your Info
-    content: |
     stepItems:
-      - uuid: 122d3e89-91d3-4e00-9fad-f965075b8eec
-        label: Nick Name
+      - label: Nick Name
         required: true
         type: PublicShortInput
-      - uuid: 3a9ec06a-3bf7-41e3-922b-9589a3168d53
-        type: UserDiscordConnect
+        uuid: 122d3e89-91d3-4e00-9fad-f965075b8eec
+      - type: UserDiscordConnect
+        uuid: 3a9ec06a-3bf7-41e3-922b-9589a3168d53
+    uuid: f3086f62-8f2d-45f1-9c29-e9cbf68e0afa
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/guides/eth/aave/AACE_Flash_loans_Thumbnail.png
+uuid: flash-loans
+version: 1
+priority: 50
