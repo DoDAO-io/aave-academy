@@ -1,7 +1,7 @@
 categories:
   - developer
 content: Explains what are flash loans and how to use them in AAVE
-created: '2024-01-23T13:02:49.464Z'
+created: '2024-01-23T13:35:25.071Z'
 guideType: onboarding
 key: flash-loans
 name: Flash Loans
@@ -293,17 +293,17 @@ steps:
       #### Self Liquidation
 
 
-      Markets can be very volatile and can lead liquidation of the sensative
+      Markets can be very volatile and can lead to liquidation of the sensitive
       positions. Liquidation can be quite expensive
 
-      on certail platforms, and it might make sense to write a simple script to
+      on certain platforms, and it might make sense to write a simple script to
       self-liquidate your loans using flash 
 
       loans and your own deposit to pay them back.
 
 
       There are many applications that make use of flash loans and liquidate the
-      positions on user's behalf saving the 
+      positions on the user's behalf saving the 
 
       user hefty liquidation fees of the protocol.
     name: Applications of Flash Loans
